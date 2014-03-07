@@ -1,0 +1,15 @@
+{
+  "name": "file-duplicate",
+  "main": "./lib/file-duplicate",
+  "version": "0.1.0",
+  "private": true,
+  "description": "duplicate a file from the tree view",
+  "activationEvents": ["file-duplicate:open"],
+  "repository": "https://github.com/pmuellr/file-duplicate",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}

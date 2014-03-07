@@ -1,0 +1,9 @@
+'.file-duplicate .mini.editor input':
+    'enter':  'core:confirm'
+    'escape': 'core:cancel'
+
+'.platform-darwin .file-duplicate .mini.editor input':
+    'cmd-w': 'core:cancel'
+
+'.platform-win32 .file-duplicate .mini.editor input':
+    'ctrl-w': 'core:cancel'
